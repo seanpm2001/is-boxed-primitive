@@ -1,11 +1,13 @@
-# is-boxed-primitive <sup>[![Version Badge][2]][1]</sup>
+# is-boxed-primitive <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![dependency status][5]][6]
-[![dev dependency status][7]][8]
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[![npm badge][11]][1]
+[![npm badge][npm-badge-png]][package-url]
 
 Polyfill/shim for node's `util.isBoxedPrimitive()`
 
@@ -39,14 +41,18 @@ var assert = require('assert');
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[1]: https://npmjs.org/package/is-boxed-primitive
-[2]: https://versionbadg.es/inspect-js/is-boxed-primitive.svg
-[5]: https://david-dm.org/inspect-js/is-boxed-primitive.svg
-[6]: https://david-dm.org/inspect-js/is-boxed-primitive
-[7]: https://david-dm.org/inspect-js/is-boxed-primitive/dev-status.svg
-[8]: https://david-dm.org/inspect-js/is-boxed-primitive#info=devDependencies
-[11]: https://nodei.co/npm/is-boxed-primitive.png?downloads=true&stars=true
+[package-url]: https://npmjs.org/package/is-boxed-primitive
+[npm-version-svg]: https://versionbadg.es/inspect-js/is-boxed-primitive.svg
+[deps-svg]: https://david-dm.org/inspect-js/is-boxed-primitive.svg
+[deps-url]: https://david-dm.org/inspect-js/is-boxed-primitive
+[dev-deps-svg]: https://david-dm.org/inspect-js/is-boxed-primitive/dev-status.svg
+[dev-deps-url]: https://david-dm.org/inspect-js/is-boxed-primitive#info=devDependencies
+[npm-badge-png]: https://nodei.co/npm/is-boxed-primitive.png?downloads=true&stars=true
 [license-image]: https://img.shields.io/npm/l/is-boxed-primitive.svg
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/is-boxed-primitive.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=is-boxed-primitive
+[codecov-image]: https://codecov.io/gh/inspect-js/is-boxed-primitive/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/inspect-js/is-boxed-primitive/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-boxed-primitive
+[actions-url]: https://github.com/inspect-js/is-boxed-primitive/actions
